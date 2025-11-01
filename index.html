@@ -5,21 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VeeZora - Video Sharing Platform</title>
     <style>
-        /* Complete CSS yaha aayega */
-        body { 
-            background: #1a1a2e; 
-            color: white; 
+        /* Basic styling - aap bad mein change kar sakte hain */
+        body {
+            background: #1a1a2e;
+            color: white;
             font-family: Arial;
             margin: 0;
             padding: 0;
         }
-        /* Aur bhi styling */
+        
+        header {
+            background: #2d2b55;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #8b5cf6;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        
+        .video-container {
+            padding: 20px;
+        }
+        
+        .video-card {
+            background: #2d2b55;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
-    <!-- Complete website HTML -->
     <header>
-        <h1>VeeZora</h1>
+        <div class="logo">VeeZora</div>
         <nav>
             <a href="#">Home</a>
             <a href="#">Explore</a>
@@ -27,12 +55,23 @@
         </nav>
     </header>
     
-    <main>
-        <!-- Video grid aur content -->
-    </main>
-    
+    <div class="video-container">
+        <h1>Welcome to VeeZora</h1>
+        
+        <div class="video-card">
+            <h3>Cooking Tutorial</h3>
+            <p>Chef Master • 1M views</p>
+        </div>
+        
+        <div class="video-card">
+            <h3>Gaming Moments</h3>
+            <p>Gaming Pro • 2.5M views</p>
+        </div>
+    </div>
+
     <script>
-        // JavaScript functionality
+        // Simple JavaScript
+        alert("VeeZora mein aapka swagat hai!");
     </script>
 </body>
-</html>
+                </html>
